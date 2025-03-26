@@ -1,0 +1,70 @@
+body {
+    background: rgb(102, 102, 235);
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background: azure;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: rgb(102, 102, 235);
+}
+.contact-info, .contact-form {
+    width: 45%;
+    text-align: left;
+}
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-info ul li {
+    margin: 10px 0;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label {
+    margin: 10px 0 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(102, 102, 235);
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(102, 102, 235);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: rgb(70, 70, 200);
+}
+
+
+.p-footer{
+    color: rgb(102, 102, 235);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
+}
